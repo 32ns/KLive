@@ -1,7 +1,7 @@
 ## 介绍
 	基于Qt QML的聚合直播盒子,实现了 采集,播放,用户注册,用户充值,到期续费,上滑下滑切换主播,主播下线自动跳过,
 	自动在房间的第一个位置生成下载二唯码,添加屏蔽主播列表 等功能,
-	已在Mac,Ios,Android下测试适配
+	已在Mac,ios,Android下测试适配
 	交流群:93525134
 
 ## 重要声明:
@@ -29,37 +29,49 @@
 	C.将Web目录下的所有文件放到PHP环境下
 	D.运行程序,完成部署
 	
-## 目录结构
-	
-├── AppUpdate   //应用更新
-│
-├── Crypto	//加密解密
-│
-├── DATA	//数据库脚本
-│
-├── Global	//公共类
-│
-├── GlobalQml	//QML组件
-│
-├── HomePage	//主页QML
-│
-├── Model	//数据模型
-│
-├── NetWork	//网络相关
-│
-├── Pay		//支付相关
-│
-├── Platfrom	//直播源
-│
-├── QZXing	//二唯码生成
-│
-├── Res		//图片资源
-│
-├── UserPage	//用户页QML
-│
-├── Web		//PHP接口源码
-│
-├── android	//Android适配文件
-│
-├── img		//程序截图
+## 目录结构	
+	├── AppUpdate   //应用更新
+	│
+	├── Crypto	//加密解密
+	│
+	├── DATA	//数据库脚本
+	│
+	├── Global	//公共类
+	│
+	├── GlobalQml	//QML组件
+	│
+	├── HomePage	//主页QML
+	│
+	├── Model	//数据模型
+	│
+	├── NetWork	//网络相关
+	│
+	├── Pay		//支付相关
+	│
+	├── Platfrom	//直播源
+	│
+	├── QZXing	//二唯码生成
+	│
+	├── Res		//图片资源
+	│
+	├── UserPage	//用户页QML
+	│
+	├── Web		//PHP接口源码
+	│
+	├── android	//Android适配文件
+	│
+	├── img		//程序截图
+
+
+![图片](https://github.com/32ns/KLive/blob/master/img/1.jpg)
+
+![图片](https://github.com/32ns/KLive/blob/master/img/2.jpg)
+
+![图片](https://github.com/32ns/KLive/blob/master/img/3.jpg)
+
+![图片](https://github.com/32ns/KLive/blob/master/img/4.jpg)
+
+![图片](https://github.com/32ns/KLive/blob/master/img/5.jpg)
+
+![图片](https://github.com/32ns/KLive/blob/master/img/6.jpg)
 
