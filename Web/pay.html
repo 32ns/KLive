@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>在线支付</title>
+
+    <link rel="stylesheet" type="text/css" href="css/selectFilter.css" />
+    <style type="text/css">
+        body {
+            padding: 30px;
+        }
+
+        .item {
+            width: 240px;
+            height: 32px;
+            margin: 30px auto;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="item">
+
+    <!-- 这里开始 -->
+
+    <div class="filter-box">
+        <div class="filter-text">
+            <input class="filter-title" type="text" readonly placeholder="pleace select" />
+            <i class="icon icon-filter-arrow"></i>
+        </div>
+        <select name="filter">
+            <option value="yk" selected>KLive月卡会员 30 元</option>
+        </select>
+    </div>
+
+    <!-- 这里结束 -->
+
+</div>
+
+<div style="left: 50%;right: 50%;text-align: center;">
+    <H1 style="color:#69A83D">微信支付</H1>
+  	<br>
+    <img style="width:80%; height:width;" src="images/qrc.jpeg">
+    <br>
+    <br>
+    <br>
+    <h3 style="color:#6BAD3E">充值方法:打开你的微信,扫描上方二唯码,输入充值金额30元,点击付款下方的 "添加备注",在备注中输入您的帐号点击确定,然后点击 "付款" 完成支付!</h3>
+    <br>
+    <h1 style="color:red">如遇充值失败也不要太担心,我们会为您手动充值,只要您填写的帐号正确</h1>
+    <h1 style="color:red">切记切记,一定要认真核对您的付款金额和帐号信息,不然充值不会成功!!!!</h1>
+    <h1 style="color:red">切记切记,一定要认真核对您的付款金额和帐号信息,不然充值不会成功!!!!</h1>
+    <h1 style="color:red">切记切记,一定要认真核对您的付款金额和帐号信息,不然充值不会成功!!!!</h1>
+
+</div>
+
+
+
+
+
+<!--
+
+	select   --  name 可以接收选择的值【用于表单提交  名称自定义】
+
+	option   --  1.  value    传给后台的参数
+				 1.  selected 设置默认选中
+				 2.  disabled 设置禁止选则
+
+-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/selectFilter.js"></script>
+<script type="text/javascript">
+    //本小插件支持移动端哦
+
+    //这里是初始化
+    $('.filter-box').selectFilter({
+        callBack : function (val){
+            //返回选择的值
+            console.log(val+'-是返回的值')
+        }
+    });
+</script>
+
+</body>
+</html>

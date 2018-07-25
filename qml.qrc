@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>HomePage/Page_Home.qml</file>
+        <file>HomePage/RoomList/List_RoomList.qml</file>
+        <file>HomePage/RoomList/Item_RoomItem.qml</file>
+        <file>HomePage/RoomItem/List_RoomItemList.qml</file>
+        <file>HomePage/RoomItem/Item_ItemList.qml</file>
+        <file>HomePage/Video/VideoWindow.qml</file>
+        <file>HomePage/Video/VideoShow.qml</file>
+        <file>UserPage/MySwitch.qml</file>
+        <file>UserPage/UserPage.qml</file>
+        <file>UserPage/UserSetingsItem.qml</file>
+        <file>UserPage/UserLogin.qml</file>
+        <file>GlobalQml/Ripple.qml</file>
+        <file>GlobalQml/Toast.qml</file>
+        <file>GlobalQml/MyButton.qml</file>
+        <file>UserPage/UserInfoBar.qml</file>
+        <file>AppUpdate/AppUpdate.qml</file>
+        <file>UserPage/UserTopUp.qml</file>
+    </qresource>
+</RCC>

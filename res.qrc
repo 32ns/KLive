@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Res/RoomItemList/ic_live.png</file>
+        <file>Res/load.jpg</file>
+        <file>Res/VideoPlayer/als.png</file>
+        <file>Res/HomePage/back.png</file>
+        <file>Res/HomePage/setup.png</file>
+        <file>Res/UserPage/password.png</file>
+        <file>Res/UserPage/user.png</file>
+        <file>Res/Font/android.ttf</file>
+    </qresource>
+</RCC>
