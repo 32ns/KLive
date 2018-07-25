@@ -61,7 +61,9 @@
 	├── android	//Android适配文件
 	│
 	├── img		//程序截图
-
+	
+	
+## 运行截图
 
 ![图片](https://github.com/32ns/KLive/blob/master/img/1.jpg)
 
