@@ -25,10 +25,10 @@
 	QtAV : 须自行下载安装 https://github.com/wang-bin/QtAV.git
 	
 ## 程序部署:
-	A.下载Qt SDK并安装QtAV播放库,搭建Mysql及PHP环境
-	B.新建一个数据库Klive,并导入DATA目录下的SQL文件
-	C.将Web目录下的所有文件放到PHP环境下
-	D.运行程序,完成部署
+	A. 下载Qt SDK并安装QtAV播放库,搭建Mysql及PHP环境
+	B. 新建一个数据库Klive,并导入DATA目录下的SQL文件
+	C. 将Web目录下的所有文件放到PHP环境下
+	D. 运行程序,完成部署
 	
 ## 目录结构:
 	├── AppUpdate   //应用更新
