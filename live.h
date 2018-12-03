@@ -28,7 +28,7 @@ private:
     HttpManager *m_Http = NULL;
     QSettings *settings = NULL;
     Download *download = NULL;
-    QString updateUrl = ""; 	//更新地址
+    QString updateUrl = ""; //更新地址
     QString homeUrl = "http://127.0.0.1:8888/";
     QString qRcodePath;
     Platfrom *m_pingtai = NULL;
