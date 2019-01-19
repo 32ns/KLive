@@ -42,7 +42,7 @@ void LinJu::readFinish(QByteArray data, READCMD cmd)
 ******************************************************************/
 void LinJu::getRoomList()
 {
-    m_Http->get(QUrl("http://api.hclyz.cn:81/mf/json.txt"),READCMD::GetRoomList);
+    m_Http->get(QUrl("http://api.hclyz.com:81/mf/json.txt"),READCMD::GetRoomList);
 }
 
 
@@ -80,7 +80,7 @@ void LinJu::getRoomItem(QString address)
         return;
     }
 
-    QString url("http://api.hclyz.cn:81/mf/");
+    QString url("http://api.hclyz.com:81/mf/");
     url.append(address);
 
     m_Http->get(QUrl(url),READCMD::GetRoomItem);
